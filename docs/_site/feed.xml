@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-05T12:17:55+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Práctica 3 handling events</title><subtitle>Informe de la practica 3 de la asignatura de Procesadores de lenguajes. En esta practica se aprenderá a manejar eventos en javascripts pa usarlos en paginas html</subtitle><entry><title type="html">Handling events</title><link href="http://localhost:4000/2020/03/05/handling.html" rel="alternate" type="text/html" title="Handling events" /><published>2020-03-05T10:41:13+01:00</published><updated>2020-03-05T10:41:13+01:00</updated><id>http://localhost:4000/2020/03/05/handling</id><content type="html" xml:base="http://localhost:4000/2020/03/05/handling.html">&lt;p&gt;Los eventos se dan cuando ocurre determinada acción. En las páginas web, queremos que al usuario hacer una acción determinada, como clickar un botón, esto generé una reacción, como mostrar nueva información. Para esto, se usan los eventos, que nos informan de cuando se dan determinadas acciones por parte del usuario. Cuando esto pasa, invocaremos a una función que produzca la respuesta que queramos.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-05T14:52:41+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">GHPages y Jekyll</title><link href="http://localhost:4000/2020/03/05/ghpages.html" rel="alternate" type="text/html" title="GHPages y Jekyll" /><published>2020-03-05T10:42:13+01:00</published><updated>2020-03-05T10:42:13+01:00</updated><id>http://localhost:4000/2020/03/05/ghpages</id><content type="html" xml:base="http://localhost:4000/2020/03/05/ghpages.html">&lt;h2 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h2&gt;
+
+&lt;p&gt;Se trata de un generador de páginas web que puede convertir tus archivos markdown en post de una página web. Es una herramienta que funciona muy bien en conjunto con github pages, de la que hablaremos mas tarde.&lt;/p&gt;
+
+&lt;p&gt;Para empezar a hacerla funcionar, necesitamos tener instalado bundler primero. Una vez tengamos esto:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;gem install jekyll bundler&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Para crear una nueva pagina usamos &lt;em&gt;jekyll new nombre&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Para probar la pagina en el navegador usamos &lt;em&gt;bundle exec jekyll serve&lt;/em&gt; y nos conectamos al puerto 4000 en el navegador usando http://localhost:4000&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Para crear los post, nos iremos a la carpeta posts. Los nombres de los post tienen que seguir esto: &lt;em&gt;año-mes-dia-nombre.md&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Dentro de estos archivos, ya podremos escribir lo que queramos. También podemos poner esto en la primera linea de cada archivo:&lt;/p&gt;
+
+&lt;p&gt;layout: post
+ title:  “GHPages y Jekyll”
+ date: 2020-03-05 10:42:13 +0100&lt;/p&gt;
+
+&lt;p&gt;Siendo title el nombre que tendrá el post en nuestra pagina y date la fecha con la que saldrá el post&lt;/p&gt;
+
+&lt;h2 id=&quot;github-pages&quot;&gt;Github pages&lt;/h2&gt;
+
+&lt;p&gt;Para subir nuestra página a githubpages, pondremos nuestros archivos de la pagina en una nueva rama gh-pages. Haremos push al repositorio que queramos usar y en settings especificaremos que queremos montar la página con el contenido de gh-pages. Esperamos unos minutos y ya tendremos nuestra página web.&lt;/p&gt;</content><author><name></name></author><summary type="html">Jekyll</summary></entry><entry><title type="html">Handling events</title><link href="http://localhost:4000/2020/03/05/handling.html" rel="alternate" type="text/html" title="Handling events" /><published>2020-03-05T10:41:13+01:00</published><updated>2020-03-05T10:41:13+01:00</updated><id>http://localhost:4000/2020/03/05/handling</id><content type="html" xml:base="http://localhost:4000/2020/03/05/handling.html">&lt;p&gt;Los eventos se dan cuando ocurre determinada acción. En las páginas web, queremos que al usuario hacer una acción determinada, como clickar un botón, esto generé una reacción, como mostrar nueva información. Para esto, se usan los eventos, que nos informan de cuando se dan determinadas acciones por parte del usuario. Cuando esto pasa, invocaremos a una función que produzca la respuesta que queramos.&lt;/p&gt;
 
 &lt;h3 id=&quot;ejemplo-botón&quot;&gt;Ejemplo botón&lt;/h3&gt;
 
