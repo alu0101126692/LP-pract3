@@ -24,15 +24,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   Informe de la practica 3 de la asignatura de Procesadores de lenguajes.
   En esta practica se aprenderá a manejar eventos en javascripts pa usarlos
   en paginas html
-baseurl: "p3-t1-handling-events-alu0101126692" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:  alu0101126692
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
