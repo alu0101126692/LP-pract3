@@ -1,0 +1,31 @@
+
+<div>
+<button></button>
+<button id="one"> button </button>
+<button id="two"> button </button>
+<button id="three"> button </button>
+</div>
+<div id="div2">
+<button id="one2"> button </button>
+<button id="two2"> button </button>
+<button id="three2"> button </button>
+</div>
+
+
+<p></p>
+<script>
+function tab1() {
+  if (this.id === "one" || this.id === "two" || this.id === "three")
+    div.style.display = "none";
+  p.textContent = this.id;
+}
+function close() {
+  div.style.display = "";
+}
+let div = document.getElementById("div2");
+let p = document.querySelector("p");
+let button = document.querySelectorAll("button");
+for (let i = 1; i < 7; i++)
+  button[i].addEventListener("click",tab1);
+button[0].addEventListener("click",close);
+</script>

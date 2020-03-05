@@ -1,0 +1,11 @@
+{
+  "name": "pr3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx http-server"
+  },
+  "author": "",
+  "license": "ISC"
+}

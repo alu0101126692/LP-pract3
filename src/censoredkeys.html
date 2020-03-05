@@ -1,0 +1,13 @@
+<input></input>
+<script>
+let input = document.querySelector("input");
+  input.addEventListener("input", () => {
+    if (input.value.charAt(input.value.length - 1) === 'q' ||
+      input.value.charAt(input.value.length - 1) === 'w' ||
+      input.value.charAt(input.value.length - 1) === 'x'
+    ) {
+      let char = input.value.charAt(input.value.length - 1)
+      input.value = input.value.replace(char,'');
+    }
+  });
+</script>
